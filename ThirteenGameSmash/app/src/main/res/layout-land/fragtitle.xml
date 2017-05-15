@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/felt6"
+
+    >
+<!--android: android:background="@drawable" ^ needs a drawable bacground! should be put into the relative layout-->
+
+
+    <Button
+    android:text="@string/single"
+    android:textAlignment="center"
+    android:layout_width="170dp"
+    android:layout_height="38dp"
+    android:paddingBottom="5dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/singleButton"
+    android:layout_below="@+id/GameName"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/button"
+    android:fontFamily="sans-serif-medium"
+    android:textSize="18sp" />
+
+<Button
+    android:textAlignment="center"
+    android:text="@string/host"
+    android:layout_marginTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/button"
+    android:layout_width="170dp"
+    android:layout_height="38dp"
+    android:id="@+id/host"
+    android:layout_below="@+id/aiplay"
+    android:layout_alignStart="@+id/aiplay"
+    android:textSize="18sp" />
+    <Button
+        android:textAlignment="center"
+        android:text="@string/AIPlay"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/button"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:id="@+id/aiplay"
+        android:layout_below="@+id/singleButton"
+        android:layout_alignStart="@+id/singleButton"
+        android:textSize="18sp" />
+
+    <Button
+        android:textAlignment="center"
+        android:text="@string/jjoin"
+        android:background="@drawable/button"
+        android:layout_width="170dp"
+        android:paddingBottom="5dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/join"
+        android:layout_below="@+id/host"
+        android:layout_alignStart="@+id/host"
+        android:textSize="18sp" />
+
+    <TextView
+        android:background="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GameName"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

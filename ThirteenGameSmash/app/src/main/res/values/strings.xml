@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Thirteen Card Smash</string>
+    <string name="single">Singleplayer</string>
+    <string name= "multi">Multiplayer</string>
+    <string name="host">Host</string>
+    <string name="jjoin">Join</string>
+    <string name="play">Play</string>
+    <string name ="pass">Pass</string>
+    <string name="menu">Menu</string>
+    <string name ="quit">Quit Game</string>
+    <string name="retgame">Return To Game</string>
+    <string name ="waitingfor">Waiting for : </string>
+    <string name = "playagain">Play Again?</string>
+    <string name="AIPlay">AI Play</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="UUID">05360eb8-b560-4bfc-9eff-31c4f420e112</string>
+    <string name="player">Player </string>
+    <string name="cancel">Cancel</string>
+    <string name="StartGame">Start Game</string>
+    <string name="PlayersJoined">Players Joined</string>
+    <string name= "Hosters">Bluetooth Enabled Phones</string>
+</resources>

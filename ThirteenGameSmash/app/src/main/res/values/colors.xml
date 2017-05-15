@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="darker_darker_grey">#3d3d3d</color>
+    <color name="garkergreen">#3e642d</color>
+    <color name="greyopaque">#8f242323</color>
+</resources>
